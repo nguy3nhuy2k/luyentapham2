@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload = 'checkSnd()'>
+<script>
+    function checkSnd(){
+        let number=parseInt(prompt())
+        let check= false
+        if (number > 0){
+            check = true;
+            return alert(check + "là số nguyên dương")
+        }
+        else{
+            return alert(check + "không là số nguyên dương")
+        }
+
+    }
+</script>
+</body>
+</html>

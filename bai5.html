@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body onload ="Min()">
+<script>
+    function Min(){
+        let num=[]
+        for (let i = 0; i <3 ; i++) {
+            num[i]=parseInt(prompt())
+        }
+        let min=num[0]
+        for (let i = 0; i <num.length ; i++) {
+            if(num[i]<min)
+                min=num[i];
+        }
+        console.log(min);
+        document.write(min);
+    }
+
+</script>
+</body>
+</html>
